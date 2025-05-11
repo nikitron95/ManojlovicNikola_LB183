@@ -478,6 +478,9 @@ Im Code passiert folgendes:
 Das eingegebene alte Passwort wird in einen Hash verwandelt und mit dem in der Datenbank gespeicherten Hash verglichen. Stimmt es nicht, wird der Vorgang abgebrochen und eine Fehlermeldung zurückgeschickt.
 Es wird geprüft, ob das neue Passwort mindestens 12 Zeichen hat, Gross-/Kleinbuchstaben, Ziffern und Sonderzeichen enthält. Jeder Regelverstoss landet in einer Liste von Fehlermeldungen. Gibt es Verletzungen, lehnt der Server die Änderung mit allen gesammelten Hinweisen ab. Nur wenn das alte Passwort korrekt ist und alle neuen Regeln erfüllt sind, wird das neue Passwort gehasht und in der Datenbank gespeichert.
 
+#### Beurteilung der Umsetzung
+Ich finde das ich das Artefakt gut umgesetzt habe und das Handlungsziel erreicht habe. Die Abfrage nach dem alten Passwort und neue Regeln wurden gut erklärt was ihre Aufgaben sind und wie man diese Implementiert.
+
 ## Logging-Konzept & ­Implementierung
 
 ### Logging-Konzept
